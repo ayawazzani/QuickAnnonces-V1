@@ -1,0 +1,16 @@
+.cursor {
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999999;
+    mix-blend-mode: difference;
+}
+
+.circle {
+    position: absolute;
+    display: block;
+    border-radius: 999px;
+    background-color: #ffffff;
+    will-change: transform, left, top;
+}
