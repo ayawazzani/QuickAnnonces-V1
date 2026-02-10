@@ -3,16 +3,20 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
+  "homepage": "https://ayawazzani.github.io/QuickAnnonces-V1",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@react-login-page/page8": "^1.0.6",
     "@react-three/drei": "^9.122.0",
     "@react-three/fiber": "^8.18.0",
     "@reduxjs/toolkit": "^2.2.3",
+    "gh-pages": "^6.3.0",
     "gsap": "^3.14.2",
     "ogl": "^1.0.11",
     "react": "^18.2.0",
